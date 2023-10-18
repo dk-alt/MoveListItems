@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.move-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  padding: 10px;
+}
+
+.list {
+  width: 30vw;
+  height: 60vh;
+  background-color: #56a1e2;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 10px;
+  justify-content: center;
+  color: yellow;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.move-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.move-item button {
+  height: 50px;
+  width: 50px;
+}
